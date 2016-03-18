@@ -1,0 +1,66 @@
+p {
+  font-family: arial;
+  font-size: 20px;
+  color: 	#a300cc;
+}
+h1 {
+  color: #00004d;
+}
+
+a {
+ text-decoration: none;
+}
+
+#click {
+  background: pink;
+  width: 120px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+}
+
+#click:hover {
+  background: blue;
+}
+
+#hi{
+  background: white;
+  width: 150px;
+  margin: 3px auto;
+  text-align: center;
+  length: 150 px;
+  padding: 10 px;
+}
+
+#hi: hover {
+  background: black;
+}
+#yo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: example 4s infinite;
+}
+@keyframes example {
+    0% {background-color: #ff80ff; width:100px}
+    10% {background-color: #ffbf80;width: 200px}
+    20% {background-color: #ffff99;width: 100px}
+30% {background-color:  #99ff66;width: 100px}
+  40% {background-color: #b3ffff;width: 240px}
+  50% {background-color: #dd99ff;width: 170px}
+  60% {background-color: #b3ffff;width: 140px}
+  70% {background-color: #99ff66;width: 180px}
+  80% {background-color: #ffff99;width: 220px}
+  90% {background-color: #ffbf80;width: 110px}
+  100% {background-color: #ff80ff;width: 180px}
+
+}
+
+#qwertyuiop{
+  background: green;
+  width: 130px;
+  
+  
+  
+}
+  
