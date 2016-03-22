@@ -1,0 +1,96 @@
+body {
+  background: url("http://p1.pichost.me/i/16/1392760.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+#container {
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 100px;
+  margin-top: 40px;
+  margin-left: 70px;
+
+  
+}
+
+#instructions {
+  font-size: 30px;
+  background: #1a0033;
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  padding: 10px;
+  border: solid 2px white;
+  animation-name:instructiona;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color: #000033;
+ 
+}
+
+@keyframes instructiona {
+    0% {background-color: #ff80ff;}
+    10% {background-color: #ffbf80;}
+    20% {background-color: #ffff99;}
+30% {background-color:  #99ff66;}
+  40% {background-color: #b3ffff;}
+  50% {background-color: #dd99ff;}
+    60% {background-color: #b3ffff;}
+  70% {background-color: #99ff66;}
+  80% {background-color: #ffff99;}
+  90% {background-color: #ffbf80;}
+    100% {background-color: #ff80ff;}
+}
+
+#playbutton {
+  background: #00001a;
+  font-size: 90px;
+  border: solid 4px white;
+  width: 320px;
+  text-align: center;
+  margin-left: 350px;
+  margin-bottom: 30px;
+  padding: 15px;
+  cursor: pointer;
+  animation-name: playbutton;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  color: #28004d;
+ }
+
+  @keyframes playbutton {
+    0% {background-color: #ff80ff;}
+    10% {background-color: #ffbf80;}
+    20% {background-color: #ffff99;}
+30% {background-color:  #99ff66;}
+  40% {background-color: #b3ffff;}
+  50% {background-color: #dd99ff;}
+    60% {background-color: #b3ffff;}
+  70% {background-color: #99ff66;}
+  80% {background-color: #ffff99;}
+  90% {background-color: #ffbf80;}
+    100% {background-color: #ff80ff;}
+
+}
+
+  #playbutton:hover {
+  animation-duration: 0s;
+  background: navy;
+    color: white;
+}
+
+#nyancat {
+  background-image: url("http://cdn.nyanit.com/nyan2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:600px;
+  height: 230px;
+  margin-top: 50px;
+  margin-bottom:200px;
+ 
+}
