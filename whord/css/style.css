@@ -1,8 +1,12 @@
-body {
+#splashBody {
   background: url("http://p1.pichost.me/i/16/1392760.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  
+  background-position: 100% 50%;
+}
+
+#gameBody {
+background: black;
 }
 
 #container {
@@ -49,7 +53,6 @@ body {
 
 #playbutton {
   background: #00001a;
-  font-size: 90px;
   border: solid 4px white;
   width: 320px;
   text-align: center;
@@ -60,7 +63,13 @@ body {
   animation-name: playbutton;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  color: #28004d;
+
+ }
+
+ .playBtn {
+ 	text-decoration: none;
+	color: #28004d;
+	font-size: 90px;
  }
 
   @keyframes playbutton {
@@ -94,3 +103,341 @@ body {
   margin-bottom:200px;
  
 }
+
+.tickcount {
+ background-image: url("http://www.iconsdb.com/icons/preview/guacamole-green/checkmark-xxl.png");
+ background-size: cover;
+ height:120px;
+ width:120px;
+ margin:30px auto 10px;
+ display: none;
+}
+
+.question {
+	background-image: url("http://images.8tracks.com/cover/i/008/791/583/pattern_rainbow_pastel-716.png?rect=940,0,6781,6781&q=98&fm=jpg&fit=max&w=1024&h=1024");
+	margin: 20px auto;
+	width: 300px;
+	height: 400px;
+	padding: 10px;
+	display:inline-block;
+}
+
+.pictures {
+	background: white;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 23px;
+}
+
+.centerStuff {
+	margin: 10px auto;
+	text-align: center;
+}
+
+
+#q1p1 {
+background-image: url("https://i0.wp.com/www.handresearch.com/news/pictures/barack-obama-left-hand.jpg");
+background-size: cover;
+}
+
+#q1p2 {
+background-image: url("http://www.samsung.com/ph/smarttv/common/guide_book_3p_si/img/hand1.png");
+background-size: cover;
+}
+
+#q1p3 {
+	background-image: url("http://www.joycomplex.com/wp-content/uploads/2014/04/voicememos_icon.png");
+background-size: cover;
+}
+
+#q1p4{
+	background-image: url("http://i.huffpost.com/gen/1506255/thumbs/o-CL3-900.jpg?6");
+	background-size: cover;
+}
+
+
+
+#q2p1{
+	background-image: url("http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/article_main_wide_image/public/2015/10/main.jpg?itok=Nl4CIc_f");
+	background-size: cover;
+
+
+}
+
+#q2p2{
+	background-image: url("http://ecx.images-amazon.com/images/I/71PCjrNJAtL._SL1500_.jpg");
+	background-size: cover;
+	}
+
+#q2p3{
+	background-image: url("http://static.giantbomb.com/uploads/scale_small/0/9146/907196-cricket_bat.jpg");
+	background-size: cover;
+	}
+
+#q2p4{
+	background-image: url("http://i.telegraph.co.uk/multimedia/archive/01606/bat_1606313c.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	}
+
+#q3p1{
+	background-image: url("http://inspiyr.com/wp-content/uploads/2013/04/burst-training.jpg");
+	background-size: cover;
+	}
+
+#q3p2{
+	background-image: url("https://media.licdn.com/mpr/mpr/p/2/005/088/264/0913028.jpg");
+	background-size: cover;
+	}
+
+#q3p3{
+	background-image: url("http://cdn.londonandpartners.com/visit/london-organisations/transport-system/59590-640x360-overground-train_640.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+	}
+
+#q3p4{
+	background-image: url("http://i.telegraph.co.uk/multimedia/archive/01981/west-somerset_1981531b.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+
+	}
+
+
+#q4p1{
+	background-image: url("http://archive.northvalleynews.org/wp-content/uploads/2011/02/Someone-Is-Watching-560x374.jpg");
+	background-size: cover;
+	background-position: 70% 30%;
+	}
+
+#q4p2{
+	background-image: url("http://thestonechurchng.org/wp-content/uploads/2014/04/Feellikesomeoneiswatching_crop380w.jpg");
+	background-size: cover;
+	}
+
+#q4p3{
+	background-image: url("http://www.danpontefract.com/wp-content/uploads/2013/05/watch.jpg");
+	background-size: cover;
+	}
+
+#q4p4{
+	background-image: url("http://www.vancitybuzz.com/wp-content/uploads/2015/01/cinema-watching-movie.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+	}
+
+#q5p1{
+	background-image:url("http://30dayfitnesschallenges.com/wp-content/uploads/2014/09/fitness-exercise-how-to-do-plank.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q5p2{
+	background-image:url("http://vignette2.wikia.nocookie.net/edwikia/images/e/ee/Plank.jpg/revision/latest?cb=20101125042626");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q5p3{
+	background-image:url("http://wapphouse.xyz/wp-content/uploads/2016/02/single-wood-plank.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q5p4{
+	background-image:url("http://www.womenshealthmag.com/sites/womenshealthmag.com/files/images/0906-plank.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q5p4{
+	background-image:url("http://www.womenshealthmag.com/sites/womenshealthmag.com/files/images/0906-plank.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q6p1{
+	background-image:url("https://www.oneclickroot.com/wp-content/uploads/2014/04/unnamed.png");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q6p2{
+	background-image:url("http://gadgets.boingboing.net/gimages/5.5wordsearch.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q6p3{
+	background-image:url("http://www.math.cornell.edu/~mec/Winter2009/Lipa/Puzzles/pics/rubiks-cube.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q6p4{
+	background-image:url("http://www.uefap.com/images/maze.gif");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q7p1{
+	background-image:url("http://pngimg.com/upload/snowflakes_PNG7585.png");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q7p2{
+	background-image:url("http://images.mentalfloss.com/sites/default/files/styles/article_640x430/public/120520631-565x418_2.jpg");
+	background-size: cover;
+	background-position: 40% 60%;
+}
+
+#q7p3{
+	background-image:url("http://pngimg.com/upload/snowflakes_PNG7545.png");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q7p4{
+	background-image:url("http://img.21food.com/20110609/product/1306933061160.jpg");
+	background-size: cover;
+	background-position: 40% 60%;
+}
+
+#q8p1{
+	background-image:url("http://sites.psu.edu/mem5969/wp-content/uploads/sites/6190/2013/10/Polar-Bear-Ice.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q8p2{
+	background-image:url("http://previews.123rf.com/images/lenm/lenm1307/lenm130700317/20779967-Illustration-of-Crying-Earth-Due-to-Pollution-Stock-Illustration-cartoon.jpg");
+	background-size: cover;
+	background-position: 40% 60%;
+}
+
+#q8p3{
+	background-image:url("http://cdn.coastalcare.org/wp-content/uploads/2009/11/plastic-pollution-seal-trapped.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q8p4{
+	background-image:url("http://altoday.com/wp-content/uploads/2015/06/pollution.jpg");
+	background-size: cover;
+	background-position: 40% 60%;
+}
+
+#q9p1{
+	background-image:url("http://www.browncowonline.co.uk/images/mainpic1.jpg");
+	background-size: cover;
+	background-position: 30% 70%;
+}
+
+#q9p2{
+	background-image:url("http://gelilaleather.com/sites/default/files/70101895.jpg");
+	background-size: cover;
+	background-position: 40% 60%;
+}
+
+#q9p3{
+	background-image:url("http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=156451894");
+	background-size: cover;
+	background-position: 50% 20% 50%;
+}
+
+#q9p4{
+	background-image: url("http://www.stevesimmortals.com/wp-content/uploads/Leather-kinds-and-types.jpg");
+	background-size: cover;
+}
+
+
+#q10p1{
+	background-image:url("http://cdn1.momsxyz.com/2015/05/fever3.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q10p2{
+	background-image:url("http://www.gdsinstruments.com/__assets__/WebPages/00226/temperature-controlled.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q10p3{
+	background-image:url("https://lh4.ggpht.com/T9gqRXQNYUejSyRinodxBlImSojtnU58c7ITugou2gIVuIl-65CA5Za6DCthFCDr214=w300");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+#q10p4{
+	background-image:url("http://www.noaanews.noaa.gov/stories2007/images/sst-ghrsst-01-22-2007b.jpg");
+	background-size: cover;
+	background-position: 60% 50%;
+}
+
+
+
+#q1 {
+	display: none;
+}
+
+#q2 {
+display:none;
+}
+
+#q3{
+	display:none;
+}
+
+#q4{
+	display:none;
+	}
+
+#q5{
+	display:none;
+}
+
+#q6{
+	display:none;
+}
+
+#q7{
+	display:none;
+}
+
+#q8{
+	display: none;
+}
+
+#q9{
+	display: none;
+	
+}
+
+#q10{
+	display:none;
+}
+
+
+
+	.nextBtn {
+		width: 70px;
+		height: 50px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		font-family: Cinzel;
+		font-size: 20px;
+
+	}
+
+
+    #textfield{
+    	margin: 0 auto;
+    	font-family: Cinzel;
+    	display: inline-block;
+    	float: center;
+    }
+
+
