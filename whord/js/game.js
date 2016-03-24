@@ -1,7 +1,12 @@
 $(document).ready(function() {
+	var pointsearned = 0;
 
   $("#q1").show();
   
+  setInterval(function(){
+  	$("#score").html(pointsearned);
+  }, 1000);
+
   //var score = 0;
   
  // $("#loadq2").click(function() {
@@ -21,18 +26,18 @@ $(document).ready(function() {
 	if (q1 === "wave") {
 		  $(".tickcount").show();
 		  alert("Correct!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 1 Completed!");
 		  
 		  $( "#q1" ).fadeOut("slow");
 		  $( "#q2" ).fadeIn("slow");
 		  $(".tickcount").hide();
-
 	  }
   
 	else
 	  {
 	  	alert("Oops!");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -46,7 +51,7 @@ $(document).ready(function() {
 	if (q2 === "bat") {
 		 $(".tickcount").show();
 		  alert("Awesome!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 2 Completed");
 		 
 		  $( "#q2" ).fadeOut("slow");
@@ -57,6 +62,7 @@ $(document).ready(function() {
 	else
 	  {
 	  	alert("Try Again!");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -70,7 +76,7 @@ $("#loadq4").click(function(){
 	if (q3 === "train") {
 		  $(".tickcount").show();
 		  alert("Great!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 3 Completed");
 		  
 		  $( "#q3" ).fadeOut("slow");
@@ -81,6 +87,7 @@ $("#loadq4").click(function(){
 	else
 	  {
 	  	alert("Try Again!");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -94,7 +101,7 @@ $("#loadq5").click(function(){
 	if (q4 === "watch") {
 		  $(".tickcount").show();
 		  alert("Correct!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 4 Completed");
 		
 		  $( "#q4" ).fadeOut("slow");
@@ -105,6 +112,7 @@ $("#loadq5").click(function(){
 	else
 	  {
 	  	alert("Incorrect!");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -118,7 +126,7 @@ $("#loadq6").click(function(){
 	if (q5 === "plank") {
 		  $(".tickcount").show();
 		  alert("That's Right!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 5 Completed");
 		 
 		  $( "#q5" ).fadeOut("slow");
@@ -129,6 +137,7 @@ $("#loadq6").click(function(){
 	else
 	  {
 	  	alert("Wrong! Hint: 5 letters");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -142,7 +151,7 @@ $("#loadq7").click(function(){
 	if (q6 === "puzzle") {
 		  $(".tickcount").show();
 		  alert("Great!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 6 Completed");
 		 
 		  $( "#q6" ).fadeOut("slow");
@@ -153,6 +162,7 @@ $("#loadq7").click(function(){
 	else
 	  {
 	  	alert("Try Again!");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -166,7 +176,7 @@ $("#loadq8").click(function(){
 	if (q7 === "flake") {
 		 $(".tickcount").show();
 		  alert("Correct!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 7 Completed");
 		 
 		  $( "#q7" ).fadeOut("slow");
@@ -177,6 +187,7 @@ $("#loadq8").click(function(){
 	else
 	  {
 	  	alert("Wrong! Hint: 5 letters");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -190,7 +201,7 @@ $("#loadq9").click(function(){
 	if (q8 === "pollution") {
 		$(".tickcount").show();  
 		  alert("Hooray!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 8 Completed");
 		 
 		  $( "#q8" ).fadeOut("slow");
@@ -201,6 +212,7 @@ $("#loadq9").click(function(){
 	else
 	  {
 	  	alert("Hint: Starts with P");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -214,7 +226,7 @@ $("#loadq10").click(function(){
 	if (q9 === "leather") {
 		  $(".tickcount").show();
 		  alert("Correct!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 9 Completed");
 		  
 		  $( "#q9" ).fadeOut("slow");
@@ -225,6 +237,7 @@ $("#loadq10").click(function(){
 	else
 	  {
 	  	alert("Try Again! Hint: Starts with L");
+	  	pointsearned -= 5;
 	  }
 
 	});
@@ -238,7 +251,7 @@ $("#loadq11").click(function(){
 	if (q10 === "temperature") {
 		  $(".tickcount").show();
 		  alert("Correct!");
-		  $("#points").hide();
+		  pointsearned += 10;
 		  alert("Level 10 Completed");
 		  
 		  $( "#q10" ).fadeOut("slow");
@@ -250,6 +263,7 @@ $("#loadq11").click(function(){
 	else
 	  {
 	  	alert("Try Again!");
+	  	pointsearned -= 5;
 	  }
 
 	});

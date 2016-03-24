@@ -113,13 +113,44 @@ background: black;
  display: none;
 }
 
+ .scoreboard {
+		float: right;		
+		width:300px;
+    	height:400px;
+    	background: blue;
+    	animation-name: scoreboarda;
+    	animation-duration: 20s;
+    	animation-iteration-count: infinite;
+    	font-family: Cinzel;
+    	font-size:40px;
+    	text-align: center;
+    	border: solid white 5 px;
+    	margin: 5px 40px;
+
+
+    }
+
+@keyframes scoreboarda {
+0% {background-color: #ff80ff;}
+    10% {background-color: #ffbf80;}
+    20% {background-color: #ffff99;}
+30% {background-color:  #99ff66;}
+  40% {background-color: #b3ffff;}
+  50% {background-color: #dd99ff;}
+    60% {background-color: #b3ffff;}
+  70% {background-color: #99ff66;}
+  80% {background-color: #ffff99;}
+  90% {background-color: #ffbf80;}
+    100% {background-color: #ff80ff;}
+
+}
 .question {
 	background-image: url("http://images.8tracks.com/cover/i/008/791/583/pattern_rainbow_pastel-716.png?rect=940,0,6781,6781&q=98&fm=jpg&fit=max&w=1024&h=1024");
-	margin: 20px auto;
+	margin: 100px auto;
 	width: 300px;
 	height: 400px;
 	padding: 10px;
-	display:inline-block;
+	display: inline-block;
 }
 
 .pictures {
@@ -429,6 +460,7 @@ display:none;
 		margin-bottom: 15px;
 		font-family: Cinzel;
 		font-size: 20px;
+		cursor: pointer;
 
 	}
 
@@ -439,5 +471,6 @@ display:none;
     	display: inline-block;
     	float: center;
     }
+
 
 
