@@ -266,6 +266,8 @@ $("#loadq11").click(function(){
 	  }
 
 	  alert("You have completed the game! Your total score is" + " "+ pointsearned);
+	  window.location.href = "gameover.html";
+
 
 
 	});
