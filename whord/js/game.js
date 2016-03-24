@@ -257,7 +257,6 @@ $("#loadq11").click(function(){
 		  $( "#q10" ).fadeOut("slow");
 		  $( "#q11" ).fadeIn("slow");
 		  $(".tickcount").hide();
-		  alert("You have completed the game!")
 	  }
   
 	else
@@ -266,5 +265,11 @@ $("#loadq11").click(function(){
 	  	pointsearned -= 5;
 	  }
 
+	  alert("You have completed the game! Your total score is" + " "+ pointsearned);
+
+
 	});
+
+		  
+
 });
